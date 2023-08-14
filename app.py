@@ -1,5 +1,5 @@
 import streamlit as st
-import openai
+#import openai
 from PIL import Image
 
 left_co, cent_co,last_co = st.columns(3)
