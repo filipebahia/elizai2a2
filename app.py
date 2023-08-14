@@ -10,16 +10,14 @@ with last_co:
 with left_co:
     st.title("ChatENT")
 
-st.write("????ChatENT, Eliza New Times. A mais recente inovação em assistência terapêutica. Inspirada na icônica Eliza, esta nova ferramenta com tecnologia de ponta é mais inteligente e empática, com uma nova abordagem para apoiar questões emocionais, além de proporcionar privacidade garantida. Descubra uma nova forma de autocuidado e bem-estar emocional.")
+st.write("ChatENT, Eliza New Times. A mais recente inovação em assistência terapêutica. Inspirada na icônica Eliza, esta nova ferramenta com tecnologia de ponta é mais inteligente e empática, com uma nova abordagem para apoiar questões emocionais, além de proporcionar privacidade garantida. Descubra uma nova forma de autocuidado e bem-estar emocional.")
 
 # Instruções
 with st.expander("Instruções", expanded = True):
-    st.write("- bla\n"
-             "- bla bla\n"
-             "- bla bla bla\n"
-             "- bla bla bla bla\n"
-             "- bla bla bla bla bla\n"
-             "- bla bla bla bla bla bla")
+    st.write("- Para utilizar o chat é necessário possuir uma chave válida da API Openai\n"
+             "- Insira a chave em API Key e clique em confirmar\n"
+             "- Após confirmação, inicie a conversa\n"
+             "- O chat está configurado de forma restrita para assuntos relacionados a Terapia")
 
 #formAPI = st.empty()
 
