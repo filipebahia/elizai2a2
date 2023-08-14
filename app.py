@@ -14,7 +14,7 @@ st.write("ChatENT, Eliza New Times. A mais recente inovação em assistência te
 
 # Instruções
 with st.expander("Instruções", expanded = True):
-    st.write("- Para utilizar o chat é necessário possuir uma chave válida da API Openai\n"
+    st.warning("- Para utilizar o chat é necessário possuir uma chave válida da API Openai\n"
              "- Insira a chave em API Key e clique em confirmar\n"
              "- Após confirmação, inicie a conversa\n"
              "- O chat está configurado de forma restrita para assuntos relacionados a Terapia")
